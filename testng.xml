@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestCasesOfGrowptil">
+    <classes>
+      <class name="growpitalTestClass.ValidatingUploadFiles"/>
+      <class name="growpitalTestClass.ValidatingPersonalInformation"/>
+      <class name="growpitalTestClass.ValidatingSucessfullyLoginMessage"/>
+    </classes>
+  </test> <!-- TestCasesOfGrowptil -->
+</suite> <!-- Suite -->
